@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock_container {
+    display: grid;
+    align-items: center;
+    height: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.hour{
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10);
+    font-size: 36px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* border: 1px solid  rgb(132, 0, 255); */
+    padding:10px 20px;
+}
+.min{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid  rgb(132, 0, 255); */
+    border-radius: 5px;
+    padding:10px 20px;
+}
+.sec{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid  rgb(132, 0, 255); */
+    border-radius: 5px;
+    padding:10px 20px;
+}
+.colon{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding:5px 15px;
+    color: #fff;
+}
+.session{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px 0 10px 20px;
+}
+.day{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.date_container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dateD{
+    margin: 0 10px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+.month{
+    margin: 0 10px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+.year{
+    margin: 0 10px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
